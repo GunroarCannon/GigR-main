@@ -102,3 +102,4 @@ Users can post jobs with images, showcase service portfolios, and exchange photo
 Frictionless onboarding using Google OAuth, which automatically pulls and syncs the user's Google profile picture to their Gigr account.
 
 ---# GigR
+# GigR
