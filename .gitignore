@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+*.egg
+
+kosi.md
+
+# Environment variables (CRITICAL)
+.env
+.env.local
+.env.*.local
+.env.copy
+.env*
+backend/.env*
+
+# Node / React
+node_modules/
+frontend/dist/
+frontend/build/
+
+# Solana / Anchor
+solana/target/
+solana/programs/**/target/
+solana/.anchor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite3
+
+# Docker
+.docker/
+
+# Coverage
+htmlcov/
+.coverage
+
+gigr_platform.json
+
+prd/
+
+seed.py
+
+solana/
+
+shared/
+
+agent.js
+
+chat.js
+
+gigr_program.json
+
+idl.json
+
+program-keypair (1).json
+
+*_plan.md
+
+*k.md
+
+meh/
+
+DEPLOYMENT.md

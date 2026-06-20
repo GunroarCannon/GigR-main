@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="barosGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="200" height="200" rx="40" fill="url(#barosGrad)"/>
+  
+  <!-- Outer Ring (Blockchain node/Location Pin combo) -->
+  <path d="M100 45 C124.8 45 145 65.2 145 90 C145 125 100 160 100 160 C100 160 55 125 55 90 C55 65.2 75.2 45 100 45 Z" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Inner B (BAROS) -->
+  <path d="M85 75 L105 75 C113.3 75 120 81.7 120 90 C120 95.8 116.7 100.8 111.9 103.4 C118.2 105.1 123 111 123 118 C123 126.3 116.3 133 108 133 L85 133 L85 75 Z" fill="white"/>
+  
+  <!-- Hole in the top loop of B -->
+  <path d="M100 87 L105 87 C106.7 87 108 88.3 108 90 C108 91.7 106.7 93 105 93 L100 93 L100 87 Z" fill="url(#barosGrad)"/>
+  
+  <!-- Hole in the bottom loop of B -->
+  <path d="M100 108 L108 108 C109.7 108 111 109.3 111 111 C111 112.7 109.7 114 108 114 L100 114 L100 108 Z" fill="url(#barosGrad)"/>
+</svg>
